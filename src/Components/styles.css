@@ -1,0 +1,32 @@
+.achtergrond1{
+    z-index: -10;
+    filter: blur(0px);
+    width:100%;
+    height:100vh;
+    position: absolute;
+}
+h1, p, h2{
+    z-index: 10;
+    color:white;
+}
+h1::selection {
+    color:red;
+    background: yellow;
+}
+h1{
+    font-size: 3rem;
+}
+p, input{
+    font-size: 1.5rem;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    align-items: center;
+    padding-top:9%;
+    margin:auto;
+    margin-top: 0%;
+    width:100%;
+    height:82.2vh;
+    position: absolute;
+}
