@@ -60,7 +60,7 @@ function getInitialDate() {
           <p>Seconds: {timeLeft.seconds}</p>
           {/*<p>{timerComponents.length ? timerComponents : <h2>Time's Up!</h2>}</p>*/}
         </div>  
-        <img className="achtergrond1" alt="New Year" src={require("../Img/nieuwjaar.jpg")}></img>
+        <img className="achtergrond1" alt="New Year" src={require("../Img/zandloper.jpg")}></img>
         <div className="cover"></div>
       </div>
     );

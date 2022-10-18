@@ -75,7 +75,7 @@ export default function Birthday() {
         <p>Seconds: {countDownTime.seconds}</p>
         {showMessage && <h2>Happy Birthday</h2>}
       </div>
-      <img className="achtergrond1" alt="New Year" src={require("../Img/nieuwjaar.jpg")}></img>
+      <img className="achtergrond1" alt="New Year" src={require("../Img/birthday.jpg")}></img>
       <div className="cover"></div>
 
     </div>
