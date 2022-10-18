@@ -54,14 +54,15 @@ function getInitialDate() {
         <div className="content">
           <h1>Own Input</h1>
           <input type="date" value={formatDate(date)} onChange={evt => setDate(new Date(evt.target.value))}></input>
-          <p>Days: {timeLeft.days}</p>
-          <p>Hours: {timeLeft.hours}</p>
-          <p>Minutes: {timeLeft.minutes}</p>
-          <p>Seconds: {timeLeft.seconds}</p>
+          <div class="grid">
+            <p>Days: <span>{timeLeft.days}</span></p>
+            <p>Hours: <span>{timeLeft.hours}</span></p>
+            <p>Minutes: <span>{timeLeft.minutes}</span></p>
+            <p>Seconds: <span>{timeLeft.seconds}</span></p>
+          </div>
           {/*<p>{timerComponents.length ? timerComponents : <h2>Time's Up!</h2>}</p>*/}
         </div>  
         <img className="achtergrond1" alt="New Year" src={require("../Img/zandloper.jpg")}></img>
-        <div className="cover"></div>
       </div>
     );
   }

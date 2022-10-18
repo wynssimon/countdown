@@ -69,14 +69,15 @@ export default function NewYear() {
     <div>
       <div className="content">
         <h1>New Year Countdown</h1>
-        <p>Days: {countDownTime.days}</p>
-        <p>Hours: {countDownTime.hours}</p>
-        <p>Minutes: {countDownTime.minutes}</p>
-        <p>Seconds: {countDownTime.seconds}</p>
+        <div class="grid">
+          <p>Days: <span>{countDownTime.days}</span></p>
+          <p>Hours: <span>{countDownTime.hours}</span></p>
+          <p>Minutes: <span>{countDownTime.minutes}</span></p>
+          <p>Seconds: <span>{countDownTime.seconds}</span></p>
+        </div>
         {showMessage && <h2>Happy New Year</h2>}
       </div>
       <img className="achtergrond1" alt="New Year" src={require("../Img/nieuwjaar.jpg")}></img>
-      <div className="cover"></div>
     </div>
   );
 }

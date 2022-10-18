@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
 .achtergrond1{
     z-index: -10;
     filter: blur(0px);
@@ -15,10 +17,24 @@ h1, p, h2{
     background: yellow;
 }
 h1{
+    font-size: 5rem;
+}
+input{
+    font-size: 1.5rem;
+}
+p{
     font-size: 3rem;
 }
-p, input{
-    font-size: 1.5rem;
+span{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:80%;
+    margin:auto;
 }
 .content{
     background-color: rgba(0, 0, 0, 0.7);
